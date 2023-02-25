@@ -1,0 +1,37 @@
+name: uff-sentiment-analysis
+channels:
+  - huggingface
+  - conda-forge
+  - anaconda
+  - pytorch
+  - plotly
+dependencies:
+  - python=3.8.8
+  - gensim
+  - gcc
+  - pytorch
+  - torchvision
+  - torchaudio
+  - torchinfo
+  - cudatoolkit=11.3
+  - wandb
+  - pandas
+  - numpy
+  - tabulate
+  - transformers
+  - scikit-learn
+  - nltk
+  - tensorboard
+  - jupyterlab
+  - plotly=5.8.0
+  - jupyter-dash
+  - streamlit
+#  - icu-tokenizer
+  - pip
+  - pip:
+    - datasets
+    - accelerate
+    - emoji
+    - xgboost
+    - openpyxl
+    - azure-ai-textanalytics==5.2.0
